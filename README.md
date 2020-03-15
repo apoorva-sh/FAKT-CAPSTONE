@@ -6,7 +6,7 @@ of this project are Frank Chen, Apoorva Shetty, Kamala V J, Tharun Sikhinam.
 # D-Classified News
 
 ## Introduction
-This capstone project is an undertaking by the students of UW in their data science class.
+This capstone project is an undertaking by the students of UW in their data science capstone class.
 
 ### Problem Statement
 Noonum is a fin-tech AI startup that leverages graphs and NLP to be a knowledge engine for business and finance. Their current news dashboard (As seen below) contains both relevant and irrelevant news articles. The aim of this project is to classify news articles as relevant or irrelevant based on their "market-relevance" and to explain why this classification was made, so as to better service their clients with their news dashboard.
