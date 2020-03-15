@@ -19,7 +19,9 @@ Our proposed solution involved four major components plugged together to create 
 
 ![System Design](docs/images/SystemDesign.png)
 
-Our basic concept involved processing the raw text to remove stop words and perform other cleaning tasks before feeding it into the feature engineering module, from where our training model would learn to classify each article. These classified articles would be fed into an explanation model to generate individual explanation for each articles. the insights that we gained using this explanation would be used to fine-tune our pre-processing and re-label our data.
+Our basic concept involved processing the raw text to remove stop words and perform other cleaning tasks before feeding it into the feature engineering module, from where our training model would learn to classify each article. These classified articles would be fed into an explanation model to generate individual explanation for each articles. 
+
+The insights that we gained using this explanation would be used to aggressively clean our data and to re-label our raw data to improve model performance.
 
 This repo contains these four modules and can be executed to get the results we obtained
 
