@@ -38,7 +38,8 @@ This repo contains these four modules and can be executed to get the results we 
 
 
 ## References
-[1] [LIME repository](https://github.com/marcotcr/lime) - @marcotr
-[2] [LIME published paper](https://arxiv.org/abs/1602.04938) - Marco Tulio R., et al
+- [1] [LIME repository](https://github.com/marcotcr/lime) - @marcotr
+
+- [2] [LIME published paper](https://arxiv.org/abs/1602.04938) - Marco Tulio R., et al
 
 
