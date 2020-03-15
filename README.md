@@ -100,10 +100,3 @@ The results of the best model and explanation can be found at [src/explanation/b
 - LIME gave us a clearer picture of what our model was truly learning; indicating that the market relevant terms were being captured by the models. 
 - The task lying ahead is to provide for a feedback loop to re-incorporate what we learn from our explanation into labelling the data, and also into our data pre-processing and feature-engineering steps.
 
-
-## References
-- [1] [LIME repository](https://github.com/marcotcr/lime) - @marcotr
-
-- [2] [LIME published paper](https://arxiv.org/abs/1602.04938) - Marco Tulio R., et al
-
-
