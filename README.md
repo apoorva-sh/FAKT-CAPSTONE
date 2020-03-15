@@ -63,31 +63,33 @@ This repo contains these four modules and can be executed to get the results we 
     │   ├── bow_xgboost.ipynb
     │   └── doc2vec_xgboost_NB_LR.ipynb
     ├── feature_engineering
+    │   ├── doc2vec_embedding.ipynb
     │   ├── LDA_feature_extraction.ipynb
     │   ├── bow.ipynb
     │   ├── ner-entity.ipynb
     │   └── tf-idf.ipynb
     ├── model
     └── preprocess
-        ├── Preprocessing.ipynb
-
+        ├── Capstone_Descriptive.ipynb
+        └── Preprocessing.ipynb
 ```
 
 ## How to use this repository
 
 The repository has four main folders. 
-1. [Data directory](./data) - holds all the raw, clean and feature sets used for model training
+1. [data](./data) - holds all the raw, clean and feature sets used for model training
 2. [src](./src) - holds all the python notebooks used in the project
 3. [docs](./docs) - contains the project report and poster
 4. [models](./models) - all trained models are saved in this folder
 
-
+#### Descriptive Statistics 
+The descriptive stats are performed in [Capstone_Descriptive.ipynb](./src/preprocess/Capstone_descriptive.ipynb) notebook.
 #### Preprocess the data
 Pre-processing is done under [src/preprocess](./src/preprocess)
 #### Feature Engineering
 Each Feature Engineering step is broken down into its own notebook. They are under [src/feature_engineering](./src/feature_engineering). BoW and Tf-IDF generate pickle files which are used to generate the features, it is not feasible to store the feature vector as .csv file.
 #### Train or use pre-trained Models
-Models are trained in [src/models](./src/model) and the trained models are saved under [model][./model]
+Models are trained in [src/model](./src/model) and the trained models are saved under [models](./model) directory. 
 #### Generating Explanations
 Explanation and results of the analysis are documented under [src/explanations](./src/explanation)
 
