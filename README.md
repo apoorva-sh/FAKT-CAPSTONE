@@ -40,9 +40,8 @@ This repo contains these four modules and can be executed to get the results we 
 │   │   └── relevant_news.json
 │   ├── feature
 │   │   ├── test_lda.csv
-│   │   ├── test_ner.csv
+│   │   ├── test_{feature}.csv
 │   │   ├── train_lda.csv
-│   │   ├── train_ner.csv
 │   │   └── train_{feature}.csv
 │   └── raw
 │       ├── irrelevant_articles.json
@@ -54,8 +53,8 @@ This repo contains these four modules and can be executed to get the results we 
 │       ├── Data.png
 │       
 ├── models
+│   ├── bow_logistic_model.sav
 │   ├── bow_xgboost_model.sav
-│   ├── init
 │   ├── lda_bow
 │   └── lda_tfidf
 └── src
@@ -69,6 +68,7 @@ This repo contains these four modules and can be executed to get the results we 
     │   ├── ner-entity.ipynb
     │   └── tf-idf.ipynb
     ├── model
+    │   └── Model_Training.ipynb
     └── preprocess
         ├── Capstone_Descriptive.ipynb
         └── Preprocessing.ipynb
