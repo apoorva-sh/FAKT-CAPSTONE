@@ -3,3 +3,6 @@ data/raw/relevant_news_10K.json
 data/raw/irrelevant_news_10K.json
 data/clean/irrelevantNewsNLTK4.json
 data/clean/relevantNewsNLTK4.json
+data/.ipynb_checkpoints
+src/feature_engineering/.ipynb_checkpoints
+.ipynb_checkpoints
