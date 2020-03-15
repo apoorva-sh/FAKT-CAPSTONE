@@ -31,6 +31,11 @@ This repo contains these four modules and can be executed to get the results we 
 
 ## How to use this repository
 
+### Preprocess the data
+### Feature Engineering
+### Train or use pre-trained Models
+### Generating Explanations
+
 ## Conclusion
 - Simpler feature sets such as BoW and TF-IDF performed well. Aggressive cleaning & pre-processing w.r.t to the context of the application improved the accuracy of the model.
 - LIME gave us a clearer picture of what our model was truly learning; indicating that the market relevant terms were being captured by the models. 
