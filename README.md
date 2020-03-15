@@ -85,7 +85,7 @@ Pre-processing is done under [src/preprocess](./src/preprocess)
 #### Feature Engineering
 Each Feature Engineering step is broken down into its own notebook. They are under [src/feature_engineering](./src/feature_engineering). BoW and Tf-IDF generate pickle files which are used to generate the features, it is not feasible to store the feature vector as .csv file.
 #### Train or use pre-trained Models
-Models are trained in [src/models](./src/model)
+Models are trained in [src/models](./src/model) and the trained models are saved under [model][./model]
 #### Generating Explanations
 Explanation and results of the analysis are documented under [src/explanations](./src/explanation)
 
